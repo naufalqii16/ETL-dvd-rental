@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: naufalqii/dvdrental-image:1.0
+    ports:
+      - "5439:5432"
+    environment:
+      POSTGRES_PASSWORD: password123
